@@ -1,0 +1,6 @@
+import(stats)
+import(utils)
+useDynLib(DelayedEffect.Design, .registration=TRUE)
+export(pow.APPLE.plus, pow.SEPPLE.plus, pow.sim.logrk.random.DE, N.APPLE.plus, 
+HR.APPLE.plus, pow.SEPPLE.random.DE,
+pow.APPLE, HR.APPLE, N.APPLE, pow.SEPPLE, pow.sim.logrk)
